@@ -25,7 +25,7 @@
         keymap {
                 compatible = "zmk,keymap";
                 
-               default_layer {
+                default_layer {
         bindings = <
         &kp Q &kp W &kp F &kp P &kp B                            &kp J &kp L &kp U &kp Y &kp SEMI 
         &kp A &kp R &kp S &kp T &kp G                            &kp M &kp N &kp E &kp I &kp O 
@@ -34,7 +34,7 @@
         >;
         };
 
-               punctuation_layer {
+                punctuation_layer {
         bindings = <
         &kp ESC &kp ATSN &kp HASH &kp DLLR &kp PRCNT             &kp CARET &kp LT &kp GT &kp SEMI &kp DEL
         &kp TAB &kp EQUAL &kp SQT &kp DQT &kp GRAVE              &kp BSLH &kp LBRC &kp RBRC &kp PIPE &kp ENTER

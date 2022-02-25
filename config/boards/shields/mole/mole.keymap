@@ -40,8 +40,8 @@
                 number_layer {
         bindings = <
         &kp ESC &kp C_PREV &kp C_PP &kp C_NEXT &trans            &kp MINUS &kp N7 &kp N8 &kp N9 &kp BKSP
-        &kp TAB &trans &kp C_VOL_UP &kp PLUS &kp STAR            &kp EQUAL &kp N4 &kp N5 &kp N6  &kp ENTER
-        &kp CAPS &trans &kp C_VOL_DN &kp DOT &kp UNDER           &kp N0 &kp N1 &kp N2 &kp N3 &to QWERTY
+        &kp TAB &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &trans      &kp EQUAL &kp N4 &kp N5 &kp N6  &kp ENTER
+        &kp CAPS &kp PLUS &kp STAR &kp DOT &kp UNDER             &kp N0 &kp N1 &kp N2 &kp N3 &to QWERTY
         &to DEFAULT &mt LC(LS(LALT)) SPC &sk LSHIFT              &sk RALT &sk RCTRL &to FUNCT
         >;
         };

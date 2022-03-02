@@ -49,7 +49,7 @@
                 function_layer {
         bindings = <
         &kp F9 &kp F10 &kp F11 &kp F12 &trans                    &trans &kp PAGE_UP &kp UP_ARROW &trans &trans        
-        &kp F5 &kp F6 &kp F7 &kp F8 &LMETA                       &kp HOME  &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp END
+        &kp F5 &kp F6 &kp F7 &kp F8 &kp LMETA                    &kp HOME  &kp LEFT_ARROW &kp DOWN_ARROW &kp RIGHT_ARROW &kp END
         &kp F1 &kp F2 &kp F3 &kp F4 &trans                       &trans &kp PAGE_DOWN &kp PRINTSCREEN &trans &to BLUETOOTH
         &to DEFAULT &mt LC(LS(LALT)) SPC &sk LSHIFT              &sk RALT &sk RCTRL &to QWERTY
         >;
